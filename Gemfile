@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 gem 'rspec-rails'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
