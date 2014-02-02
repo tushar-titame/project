@@ -1,4 +1,7 @@
 Project::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/help"
+  get "static_pages/sign_in"
   get "users/new"
   get "say/hello"
   get "say/goodbye"
