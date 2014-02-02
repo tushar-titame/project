@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="container" style="width:1500px">
+
+<div id="header" style="background-color:#FFA500;" align="center">
+<h1 style="margin-bottom:0;"><font face="Comic sans ms">Dynamic Tracking, Scheduling and Management System For Private Buses</font></h1></div>
+
+<div id="menu" style="background-color:black;height:700px;width:100px;float:left;">
+<font color="red"><b>Employee<br>
+Admin<br>
+Driver<br>
+Timetable<br>
+<%= link_to "Hello", say_hello_path %><br>
+<%= link_to "Goodbye", say_goodbye_path %></b></font></div>
+
+<div id="content" style="background-color:#EEEEEE;height:700px;width:1400px;float:left;" align="center">
+<marquee>
+<%= image_tag "bus.jpg", :size=> "260x180" %></marquee><br>
+<br>
+<br>
+<br>
+<%= yield %>
+</div>
+
+<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+	<p align="center">Copyright © DM103 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <u>About Us </u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<u> Contact </u></p>
+</div>
+
+</div>
+ 
+</body>
+</html>
