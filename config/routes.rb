@@ -1,4 +1,8 @@
 Project::Application.routes.draw do
+  get "users/new"
+  get "frameset/frame"
+  get "say/hello"
+  get "say/goodbye"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
